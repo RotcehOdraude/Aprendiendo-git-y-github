@@ -12,6 +12,12 @@ CONFIGURACION DE COLORES, escribe:
 $ git config --global color.ui true
 
 $ git config --global --list <<Para ver nuestras configuraciones>>
+---------------------------------------------------------------------------
+$ git init <<Marca el inicio del proyecto>>
+$ git status <<Muestra el estado del proyecto>>
+$ git add NOMBRE_DEL_ARCHIVO 
+$ git add -A <<Para agregar todos los archivo>>
+$ git commit -m "MENSAJE_PARA_IDENTIFICAR_EL_COMMIT"
 
 
 
