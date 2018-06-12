@@ -1,0 +1,18 @@
+Hola. Esta es la configuracion inicial de Git...
+
+CONFIGURACION DEL NOMBRE, ecribe:
+$ git config --global user.name "Hec" <<Sirve para configurar el nombre>>
+$ git config --global user.name <<Sirve para ver la configuracion>>
+$ git config --global user.name "Hector" <<Así se puede modificar el nombre>>
+
+CONFIGURACION DEL EMAIL, escribe:
+$ git config --global user.email "hectoreduardo354@hotmail.com"
+
+CONFIGURACION DE COLORES, escribe:
+$ git config --global color.ui true
+
+$ git config --global --list <<Para ver nuestras configuraciones>>
+
+
+
+
