@@ -1,4 +1,4 @@
-Hola. Esta es la configuracion inicial de Git...
+﻿Hola. Esta es la configuracion inicial de Git...
 
 CONFIGURACION DEL NOMBRE, ecribe:
 $ git config --global user.name "Hec" <<Sirve para configurar el nombre>>
@@ -29,3 +29,7 @@ $ git help COMANDO <<Nos brinda informacion del comando>>
 ------------------------------------------------------------
 $ git branch <<Nos muestra las ramas>>
 $ git branch NOMBRE_DE_LA_RAMA <<Para crear una rama>>
+$ git branch -D NOMBRE_DE_LA_RAMA <<Elimina la rama NOMBRE_DE_LA_RAMA>>
+$ git checkout -b NOMBRE_DE_LA_RAMA <<Crea y se mueve al mismo tiempo a la rama NOMBRE_DE_LA_RAMA>>
+FUSIONAR:(Fast-Forward....Manual Merge)
+$ git merge NOMBRE_DE_LA_RAMA <<fusiona la rama NOMBRE_DE_LA_RAMA con la rama en donde nos encontramos actualmente>>
