@@ -18,7 +18,14 @@ $ git status <<Muestra el estado del proyecto>>
 $ git add NOMBRE_DEL_ARCHIVO 
 $ git add -A <<Para agregar todos los archivo>>
 $ git commit -m "MENSAJE_PARA_IDENTIFICAR_EL_COMMIT"
-
+--------------------------------------------------------------------
+$ git log <<Nos da una lista de todos nuestros commit>>
+$ git checkout CODIGO_HASH_ó_RAMA <<Sirve para viajar entre los commits o entre las ramas>>
+TRES TIPOS DE GIT RESET:(Funciona de la misma forma que checkout para moverse entre los commits)
+$ git reset --soft <<Borra el commit y no borra el codigo >>
+$ git reset --mixed <<Borra los archivos que estan addeados para el comit sin borrar el codigo>>
+$ git reset --hard <<Borra todo lo que se encuentra ene el comitt>>
+$ git help COMANDO <<Nos brinda informacion del comando>>
 
 
 
