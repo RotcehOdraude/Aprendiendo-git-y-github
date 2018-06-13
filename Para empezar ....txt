@@ -33,3 +33,13 @@ $ git branch -D NOMBRE_DE_LA_RAMA <<Elimina la rama NOMBRE_DE_LA_RAMA>>
 $ git checkout -b NOMBRE_DE_LA_RAMA <<Crea y se mueve al mismo tiempo a la rama NOMBRE_DE_LA_RAMA>>
 FUSIONAR:(Fast-Forward....Manual Merge)
 $ git merge NOMBRE_DE_LA_RAMA <<fusiona la rama NOMBRE_DE_LA_RAMA con la rama en donde nos encontramos actualmente>>
+-------------------------------------------------
+GITHUB
+$ git clone <<Clona un proyecto de github>>
+Para poner nuestro proyecto en github:
+1. Ir a github y crear un nuevo repositorio
+2. Copiar link https
+3. Ir a git y escribir: $ git remote add origin LINK-HTTPS <<Vincula proyecto local con proyecto remoto>>
+$ git remote -v <<Para comprobar que estan vinculados>>
+$ git remote remove origin <<Sirve para desvincular los repositorios>>
+4. Cargar nuestros archivos al repositorio remoto con: $ git push origin NOMBRE_DE_LA_RAMA <<manda nuestros cambios (commits) a github>>
